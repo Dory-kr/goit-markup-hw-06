@@ -1,0 +1,11 @@
+@media screen and (min-resolution: 192dpi) and (max-width: 1200px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .banner {
+        background-image: url();
+    }
+}
+max-width: 767px
+min-width: 768px
+min-width: 1200px
+/* */
