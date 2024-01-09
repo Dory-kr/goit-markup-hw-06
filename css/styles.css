@@ -271,7 +271,7 @@ header {
 
 .section-inform {
     display: block;
-    margin: 96px 28px;
+    margin: 96px 0;
     color: #2e2f42;
     background-color: #ffffff;
 }
@@ -290,13 +290,11 @@ header {
 }
 
 .section-subtitle {
-    padding-bottom: 8px;
-    display: flex;
-    justify-content: center;
+    margin-bottom: 8px;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.6;
+    line-height: 1.11;
     letter-spacing: 0.05em;
     text-transform: capitalize;
 
@@ -327,7 +325,7 @@ header {
 
 .team-list {
     margin-bottom: 72px;
-    display: block;
+    display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -895,15 +893,28 @@ header {
 
     .section-menu {
         display: flex;
-        flex-direction: row;
+        row-gap: 72px;
         flex-wrap: wrap;
-        align-items: flex-start;
-        gap: 8px;
     } 
+
+    .section-item {
+        margin-bottom: 0;
+        width: calc((100% - 24px) / 2);
+    }
 
     .section-subtitle {
         font-size: 36px;
         font-weight: 700;
+    }
+
+    .section-team {
+        display: flex;
+    }
+
+    .team-list {
+        display: flex;
+        align-items: center;
+        margin-bottom: 64px;
     }
 }
 
