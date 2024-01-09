@@ -1627,10 +1627,12 @@ header {
         .footer-container {
             display: flex;
             align-items: baseline;
+            flex-wrap: nowrap;
         }
     
         .footer-main {
-            margin-right: 120px;
+            margin: 0 auto;
+            padding-right: 120px;
         }
     
         .footer-logo.link {
